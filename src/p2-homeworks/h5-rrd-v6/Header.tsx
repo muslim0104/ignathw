@@ -15,7 +15,7 @@ setShow(true)
 }
     return (
         <>
-        <div className={show ? "show":"hide"}>
+        <div >
 
             <NavLink to={PATH.HW_1}> HW1 </NavLink>
             <NavLink to={PATH.HW_2}> HW2 </NavLink>
