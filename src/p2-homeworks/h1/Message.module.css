@@ -1,0 +1,66 @@
+
+.main {
+    display: flex;
+    background-color: green;
+    align-items: flex-end;
+    padding: 15px;
+    width: 400px;
+
+
+
+}
+
+.avatar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+}
+
+
+
+.name_1 {
+color: blueviolet;
+
+}
+
+
+.content {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #282c34;
+    width: 280px;
+    margin-left:15px ;
+    border-radius: 7px 7px 7px 0px;
+
+
+}
+
+.content:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: -30px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(60px at top left, transparent 49%, #282c34 51%) no-repeat right bottom;
+
+}
+
+.message {
+color: white;
+
+}
+
+.time {
+position: absolute;
+    right:10px ;
+    bottom:10px ;
+    color: gray;
+}
+
+.wrap {
+
+}
