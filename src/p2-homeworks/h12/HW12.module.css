@@ -1,6 +1,9 @@
 .dark {
     background: dimgrey;
 }
+.pink{
+    background-color: deeppink;
+}
 
 .dark-text {
     color: aliceblue;
@@ -19,5 +22,9 @@
 }
 
 .some-text {
-    color: darkslateblue;
+    color: rgb(240, 255, 239);
+}
+
+.pink-text{
+    color: white;
 }

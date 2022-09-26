@@ -27,6 +27,8 @@ function Header() {
                 <NavLink to={PATH.HW_9}> HW9 </NavLink>
                 <NavLink to={PATH.HW_10}> HW10 </NavLink>
                 <NavLink to={PATH.HW_11}> HW11 </NavLink>
+                <NavLink to={PATH.HW_12}> HW12 </NavLink>
+                <NavLink to={PATH.HW_13}> HW13 </NavLink>
 
             </div>}
             <button onClick={callback}> Show homeworks</button>

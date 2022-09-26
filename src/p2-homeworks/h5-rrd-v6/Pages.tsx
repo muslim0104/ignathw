@@ -13,6 +13,8 @@ import HW8 from "../h8/HW8";
 import HW9 from "../h9/HW9";
 import HW10 from "../h10/HW10";
 import HW11 from "../h11/HW11";
+import HW12 from "../h12/HW12";
+import HW13 from "../h13/HW13";
 
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
@@ -25,7 +27,9 @@ export const PATH = {
     HW_8: "/HW8",
     HW_9: "/HW9",
     HW_10: "/HW10",
-    HW_11:"/HW11"
+    HW_11:"/HW11",
+    HW_12:"/HW12",
+    HW_13:"/HW13"
 }
 
 function Pages() {
@@ -47,6 +51,8 @@ function Pages() {
                 <Route path={PATH.HW_9} element={<HW9/>}/>
                 <Route path={PATH.HW_10} element={<HW10/>}/>
                 <Route path={PATH.HW_11} element={<HW11/>}/>
+                <Route path={PATH.HW_12} element={<HW12/>}/>
+                <Route path={PATH.HW_13} element={<HW13/>}/>
                 // add routes
 
                 {/*он отрисуется если пользователь захочет попасть на несуществующую страницу*/}
